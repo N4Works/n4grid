@@ -1,0 +1,196 @@
+/* Sistema de Grid N4
+--------------------------------------------------*/
+.hide{
+    display:none;
+}
+hr {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    color: #eee;
+    border: 0px solid transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.form-group {
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    white-space: nowrap;
+    display: block;
+    padding-top: 10px;
+}
+
+.g-quarter {
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.g-quarter-3 {
+    position: relative;
+    float: left;
+    width: 74%;
+    margin-right: 1%;
+}
+
+.g-quarter-3.g-last {
+    width: 75%;
+    margin-right: 0;
+}
+
+.g-third {
+    float: left;
+    width: 32.3%;
+    margin-right: 1%;
+}
+
+.g-third-2 {
+    float: left;
+    width: 65.6%;
+    margin-right: 1%;
+}
+
+.g-half {
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+}
+.g-half.g-last{
+    width:50%;
+    margin-right:0;
+}
+.g-full {
+    float: left;
+    width: 100%;
+    margin-right: 1%;
+}
+
+.g-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.grid-overlay {
+    display: none;
+    pointer-events: none
+}
+
+@media all and (min-width: 600px) {
+    .hide-md{
+        display: none;
+    }
+    .hide{
+        display: inherit;
+    }
+    .g-md-full {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .g-md-half {
+        float: left;
+        width: 49%;
+        margin-right: 1%;
+    }
+    .g-md-half.g-md-last {
+        width: 50%;
+        margin-right: 0;
+    }
+    .g-md-third {
+        float: left;
+        width: 32.3%;
+        margin-right: 1%;
+    }
+    .g-md-third.g-md-last {
+        width: 33.3%;
+        margin-right: 0;
+    }
+    .g-md-third-2 {
+        float: left;
+        width: 65.3%;
+        margin-right: 1%;
+    }
+    .g-md-third-2.g-md-last {
+        float: left;
+        width: 65.3%;
+        margin-right: 1%;
+    }
+    .g-md-quarter {
+        float: left;
+        width: 24%;
+        margin-right: 1%;
+    }
+    .g-md-quarter.g-md-last {
+        float: left;
+        width: 25%;
+        margin-right: 0;
+    }
+    .g-md-quarter-3 {
+        float: left;
+        width: 74%;
+        margin-right: 1%;
+    }
+    .g-md-quarter-3.g-md-last {
+        width: 75%;
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .hide-lg{
+        display: none;
+    }
+    .g-lg-half {
+        float: left;
+        width: 49%;
+        margin-right: 1%;
+    }
+    .g-lg-half.g-lg-last {
+        width: 50%;
+        margin-right: 0;
+    }
+    .g-lg-third {
+        float: left;
+        width: 32.3%;
+        margin-right: 1%;
+    }
+    .g-lg-third.g-lg-last {
+        width: 33.3%;
+        margin-right: 0;
+    }
+    .g-lg-third-2 {
+        float: left;
+        width: 65.3%;
+        margin-right: 1%;
+    }
+    .g-lg-third-2.g-lg-last {
+        float: left;
+        width: 65.3%;
+        margin-right: 1%;
+    }
+    .g-lg-quarter {
+        float: left;
+        width: 24%;
+        margin-right: 1%;
+    }
+    .g-lg-quarter.g-lg-last {
+        float: left;
+        width: 25%;
+        margin-right: 0;
+    }
+    .g-lg-quarter-3 {
+        float: left;
+        width: 74%;
+        margin-right: 1%;
+    }
+    .g-lg-quarter-3.g-lg-last {
+        width: 75%;
+        margin-right: 0;
+    }
+}
